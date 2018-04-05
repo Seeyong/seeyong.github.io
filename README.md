@@ -1,2 +1,4 @@
-# Machine Learning Study Blog
-## from begginer to real MLer
+# Machine Learning Study Blog by Seeyong
+## from begginer to Machine Learner
+
+Hello Marchine!
