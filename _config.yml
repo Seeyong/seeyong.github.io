@@ -1,39 +1,26 @@
-# Site settings
-title: Blog - technology and science at TheReviewIndex
-description: "A blog for sharing thoughts on technology, science and insights at TheReviewIndex."
-url: "http://www.thereviewindex.github.io/blog"
-author:
-  name: "The Review Index"
-  email: "root@thereviewindex.com"
-  url: "https://thereviewindex.com"
+# Basic
+title: WngLMng's Blog
+author: WngLMng
+description: 嗨，我是王立明，一名来自黑龙江省鹤岗市的男生。<br/>现于无线生活（北京），从事互联网开发工作。
 
-# Build settings
-baseurl: /blog # Change this to your relative path (ex: /blog/), or leave just a /
-markdown: kramdown
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 8
-paginate_path: /page:num/
+url: "https://wnglmng.com"
 
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+permalink: /:year/:month/:title/
 
-# Plugins
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
+# Format
+highlighter: plain
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
 
-# Custom variables
-version: "1.0.0"
+# Pagination
+gems: [jekyll-paginate]
+paginate: 15
+paginate_path: "pages/:num/"
 
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
+# Social
+social:
+    weibo: sunmoon1993
+    github: wnglmng
+    gplus: 112547382138552250597
+    mail: wnglmng@gmail.com
