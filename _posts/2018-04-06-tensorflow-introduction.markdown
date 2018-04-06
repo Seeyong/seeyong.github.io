@@ -5,7 +5,7 @@ subtitle:       a powerful ML tool
 card-image:     https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/2000px-TensorFlowLogo.svg.png
 date:           2018-04-06 23:20:00
 tags:           dev
-post-card-type: article
+post-card-type: image
 ---
 
 # Hello Tensorflow
