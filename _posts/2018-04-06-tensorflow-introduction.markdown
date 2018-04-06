@@ -9,6 +9,11 @@ post-card-type: image
 ---
 
 # Hello Tensorflow
+![tensorflow stucture](http://nlpx.net/wp/wp-content/uploads/2015/11/TensorFlow-graph1.jpg)
+
+```TensorFlow```의 구조...아직 몰라도 됨. 나도 모름.
+**```이론 말고 실전부터```** 일단 코드부터 바로 쳐보기.
+
 ```python
 import tensorflow as tf
 
@@ -30,6 +35,7 @@ b'Hello, Tensorflow!' # b is short for binary
 ### 1 Build Graph(tensor) using TensorFlow operations
 ### 2 feed Data and Run Graph(operation)
 ### 3 Update variables in the graph
+위 순서대로 ```Tensor```가 ```Flow```함
 ```python
 node1 = tf.constant(3.0, tf.float32)
 node2 = tf.constant(4.0) # also tf.float32 implicitly
