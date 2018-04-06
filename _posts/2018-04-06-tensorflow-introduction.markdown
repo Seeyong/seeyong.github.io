@@ -9,7 +9,7 @@ post-card-type: image
 ---
 
 # Hello Tensorflow
-![tensorflow stucture](http://nlpx.net/wp/wp-content/uploads/2015/11/TensorFlow-graph1.jpg)
+![tensorflow stucture](https://zdnet1.cbsistatic.com/hub/i/r/2015/11/09/8987e535-f95c-4a2e-9e81-1f700e260eb9/resize/770xauto/94ccdb3e1a235541ba00813be4c94b0e/tensorflow.png)
 
 ```TensorFlow```의 구조...아직 몰라도 됨. 나도 모름.
 **```이론 말고 실전부터```** 일단 코드부터 바로 쳐보기.
