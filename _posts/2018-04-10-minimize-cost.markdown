@@ -42,7 +42,7 @@ sess = tf.Session()
 # Initializes global variable in the graph
 sess.run(tf.global_variables_initializer())
 ```
-```cost```를 구하는 공식도 구현하고, ```session```을 지정해 그래프(```tensor```)를 그린 후 ```global_variables_initializer```를 실행한다.([```global_variables_initializer```를 포함한 기본적인 내용은 앞선 포스팅에서 확인 할 수 있음.]())
+```cost```를 구하는 공식도 구현하고, ```session```을 지정해 그래프(```tensor```)를 그린 후 ```global_variables_initializer```를 실행한다.([```global_variables_initializer```를 포함한 기본적인 내용은 앞선 포스팅에서 확인 할 수 있음.](https://seeyong.github.io/2018/04/hypothesis-cost-function/))
 
 ```python
 # Variables for plotting cost function
