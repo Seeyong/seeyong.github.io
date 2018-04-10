@@ -1,10 +1,10 @@
 ---
 layout:     	post
-title:      	Hypothesis & Cost Function
+title:      	가설 세우기 & 비용 함수 만들기
 subtitle:   	Minimize It!
 card-image: 	https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/400px-Linear_regression.svg.png
 date:       	2018-04-09 20:30:00
-tags:       	code
+tags:       	TF
 post-card-type: image
 ---
 

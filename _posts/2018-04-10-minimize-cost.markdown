@@ -1,10 +1,10 @@
 ---
 layout:         post
-title:          Minimize Cost
+title:          비용 최소화
 subtitle:       Gradient Descent Algorithm
 card-image:     https://cdn-images-1.medium.com/max/1600/1*WGHn1L4NveQ85nn3o7Dd2g.png
 date:           2018-04-10 16:00:00
-tags:           dev
+tags:           TF
 post-card-type: image
 ---
 
