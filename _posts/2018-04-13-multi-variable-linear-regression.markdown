@@ -12,7 +12,7 @@ post-card-type: article
 ## Hypothesis using Matrix
 그동안 $$$x$$$라는 ```feature```가 하나인 간단한 선형 회귀 분석을 해왔지만 현실에는 여러개의 ```feature```가 있는 경우가 대부분이다. 이제 우리는 여러개의 $$$x$$$를 사용해 회귀 분석을 하고 예측치를 도출할 것이다.
 student|Quiz 1($$$x_1$$$)|Midterm($$$x_2$$$)|Quiz 2($$$x_3$$$)|Final($$$y$$$)
--------|------|------|-------|------|------
+-------|------|------|-------|------
 A|73|80|75|152
 B|93|88|93|185
 C|89|91|90|180
@@ -46,6 +46,7 @@ hypothesis = x1 * w1 + x2 * w2 + x3 * w3 + b
 
 우리의 ```Hypothesis``` 식에서 ```b=0```으로 가정하고 나면 아래와 같은 식이 도출된다.
 $$H(x_1, x_2, x_3) = x_1w_1 + x_2w_2 + x_3w_3$$
+![](https://steemitimages.com/DQmdk6q3etT91i7j4Gcy2cPJsa72Hig9w6avXrPVNSXfg7K/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202018-04-13%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%207.24.45.png)
 각 ```w```는 1차원으로 구성된 ```weight```이기 때문에 ```Variable```로 지정한 뒤 ```hypothesis```라는 ```node```에 가설식을 구현한다.
 ```python
 # cost/loss function
@@ -105,8 +106,10 @@ w_3
 x_1w_1 & x_2w_2 & x_3w_3\\
 \end{array}\right)
 $$ 
+![](https://steemitimages.com/0x0/https://steemitimages.com/DQmV1Fhi5pmh6LD6zKAQwpasoE4nnL5FyFz4hDgg5eeGYFA/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202018-04-13%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%207.24.39.png)
 중학생 때 배운 ```행렬의 곱셉```을 사용하면 선형 회귀 가설식을 간단하게 도출할 수 있다. 함축된 식으로 다시 정리해보면,
 $$H(x) = XW$$
+![](https://steemitimages.com/DQmfR25LKXaXZeMgnxGvy34pPmg6n2ED7eAkC95QPCbetRG/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202018-04-13%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%207.24.49.png)
 대문자로 표시된 각 ```X```와 ```W```는 ```행렬(Matrix)```이라는 의미다.
 ```python
 x_data = [[73.,80.,75.],[93.,88.,93.],[89.,91.,90.],[96.,98.,100.],[73.,66.,70.]]
@@ -129,6 +132,7 @@ b = tf.Variable(tf.random_normal([1]), name='bias')
 
 ```(5 X 3)``` 행렬를 다른 어떤 행렬과 곱해 ```(5 X 1)``` 형태의 행렬로 만들기 위해서는 가운데 또 하나의 행렬이 필요하다. 
 $$(5 \times 3) \times (i \times j) = (5 \times 1)$$
+![](https://steemitimages.com/0x0/https://steemitimages.com/DQmQontnhoECjzQLKcSFuc9bLTnGoWqegntPoh4HwKGNvpd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202018-04-13%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%207.24.54.png)
 ```i```는 ```3```이 되어야 하고 ```j```는 ```1```이 되어야 결과값이 완성된다. 즉, $$$H(x) = XW$$$에서 ```W```는 ```(3 X 1)```의 형태가 되어야 한다.
 ```python
 # Hypothesis
