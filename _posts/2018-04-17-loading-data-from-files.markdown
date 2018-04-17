@@ -1,7 +1,7 @@
 ---
 layout:     	post
 title:      	파일에서 Data 읽어오기
-subtitle:   	u
+subtitle:   	
 card-image: 	http://cfile25.uf.tistory.com/image/223B9B4958F7733C012354
 date:       	2018-04-17 20:30:00
 tags:       	ML
@@ -106,7 +106,7 @@ Other Score will be  [[187.48228], [172.1105 ]]
 하지만 파일 하나만 읽어오는 경우 뿐 아니라 여러 파일을 동시에 읽어와야 하는 경우도 있다. 데이터의 크기가 크거나, 다른 종류(ex)다른 마케팅 채널 등)의 데이터를 동시에 분석해야 할 때가 있다. 이를 위해 ```TensorFlow```에서 파일을 어떻게 처리하는지 살펴볼 필요가 있다.
 ![](http://cfile25.uf.tistory.com/image/223B9B4958F7733C012354)
 위와 같은 순서로 파일을 읽어와 뱉어낸다. 어려워 보이지만 크게 세 단계로 나눠 볼 수 있다.
-![batch file.png](/Users/seeyonglee/Desktop/batch file.png)
+![](https://lh3.googleusercontent.com/Bo2z4MTF5Iaml-ZPMjVhgQPK8na6zbaHpHvliVdEyRJ6YNDfy8FGNdg9pd1oUNDGLOEu7anDlTR2EpBwnSwWhjj-0Ut5vZruXvS822xYjRk4TwEWwop5ODN89Fow89z4yj7w-VsDixaCgv2p0AgbCj2Sm_Gf0BEAEr2Lis4EFG_Y8aZpXRhLTiIhNum20zq_ge2DhawiN2OIyuuC8yS60D0I1BO-C38JqNpaipk9TXZ-yvQAIYNo4zbyIZyTb0j7n9jFdd3WKelGhCJfJmZH6ga4SHhHODWVT22PjLvq2wNRSnzMBglOu5_H9mv-2sJt-s6bcwQVXzonv_qXqHOxP134Wwo8rIwibdw0J-IUbJogINV2C5YFKiwXDJGcLSwOj4ny8efm5kw3Vtre5Wpo42jVfx4YF967M41DS-LPlt7-tEM-b770HHdu_H0qV_ZiAEyX-VpCwzQqWxu-00_TBEQKlkyLRLoOWGdiXM6dvGIwuAFJ3-b-IadANmhvyGdUdIeYGUGxth9cWr39MygCyk2eqTybRvjMkiFCer_eAobfUfUR0Xiw_H4BcejSk4e5vRx3E8QYCYrMD_tA_pT16g7KepXJvTtak3LKlsco=w2560-h1396-no)
 ##### 1 여러개의 파일을 하나의 ```Queue```로 만들기
 ```python
 filename_queue = tf.train.string_input_producer(
