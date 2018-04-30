@@ -1,10 +1,10 @@
 ---
 layout:         post
-title:          REMOTE HOST IDENTIFICATION HAS CHANGED
+title:          Softmax Classification
 subtitle:   
 card-image:     https://ww3.sinaimg.cn/large/906cb9dbgw1fb2xyzt1mij20wk0duwmv.jpg
-date:           2016-6-18 23:35:00
-tags:           code
+date:           2018-4-30 23:00:00
+tags:           ML
 post-card-type: image
 ---
 
