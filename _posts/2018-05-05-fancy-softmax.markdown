@@ -5,7 +5,7 @@ subtitle:
 card-image: 	
 date:       	2018-05-05 21:00:00
 tags:       	ML
-post-card-type: image
+post-card-type: article
 ---
 
 여러 예측 결과물을 도출해내기 위한 방법으로 ```Softmax Classification```을 사용한다. 저번 글에서는 기초적인 여러 공식들을 우리가 직접 구현해냈지만, 사실 구글이 이미 다 한 줄의 코드로 만들어놨다. 공부를 하는 입장에서 작동 원리를 아는 것이 중요하기 때문에 기초부터 배우는 것이 중요하지만, 실무에서는 간단하게 사용할 수 있다는 의미다. 이번에는 더 ```Fancy```하게 ```Softmax Classification```을 구현해보자.
