@@ -22,7 +22,7 @@ nb_classes = 10
 ```
 ```TensorFlow```에서 예시로 제공해주는 데이터가 이미 있으므로 이를 활용해서 연습할 수 있다. ```tensorflow.example.tutorials.mnist``` 라이브러리에서 ```input_data```를 가져온 후 ```MNIST_data```를 읽어온다. 이때 ```one_hot```을 ```True```로 설정해두면 우리가 따로 작업하지 않아도 결과 데이터를 ```one-hot-encoding``` 형태로 가져올 수 있다. 우리가 분류하기 원하는 총 결과값은 ```0 ~ 9```까지 총 10개의 ```label```이다. 
 
-![](https://mmlind.github.io/images/mnist-image.svg)
+![](https://lh3.googleusercontent.com/jfwqx5A2C1HVrtVOjlRKQNdPGWxrPpnWYYrzOwyUn1WO92mLcXipRv7VNpDML-ALCrtKtZ7izq4=w326-h339-no)
 
 우리가 분석해야 할 ```X``` 값은 위 그림과 같이 가로 세로 28 * 28의 총 784개 픽셀이다. 그동안 10여 개의 ```feature```를 학습했던 것보다 훨씬 많은 수의 학습이 이루어진다. ```feature```의 개수와 결과값 ```Y```의 ```label``` 개수를 고려해 아래의 코드와 같이 차원을 설정한다.
 ```python
