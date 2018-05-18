@@ -4,7 +4,7 @@ title:      	다변수 선형 회귀 분석
 subtitle:   Use MATRIX!
 card-image: 	
 date:       	2018-4-13 19:00:00
-tags:      		ML
+tags:      		Machine Learning, TensorFlow, Coding, Data Science
 post-card-type: article
 ---
 

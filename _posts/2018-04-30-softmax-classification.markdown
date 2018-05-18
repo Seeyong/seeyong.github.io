@@ -4,7 +4,7 @@ title:          Softmax Classification
 subtitle:   
 card-image:     https://lh3.googleusercontent.com/QD5YSR1GV--CWs1_2ILhslxfIe1hc0lDj0qVhZ2l7ZiZlTq3PxYnqDvx3JlPtBS1tkB8SHG1wG6o4vfMb1CZIy1XKppa7GoaM1JetkGjRdUus1EduZRmvozna2ShOEj34U_Y9AV2KoXfC0pyopg4hMO_0dhr9PKhK8KZfFLNColK9Et0mjTuLBX0fh-6iT98EgDZW5VzDg-IXoGL38fAMQ9nzC1KCi3tVMkdN96-YowXEtoNo-_wRkYfyn1ROYyjjF9_z4xXmdjdrPw6mh-srbvkeizv232_AZMww7XsNwOrXoyKi-8Uo5Htv_b8Ah1-80UyIOb7BvEo0HzKabbbLKZql4H5jGLa87e_eojq531e92DSOzHFHRFNhw124I3MqYQm60YGt3hdPGejzKymyqQT1J-nDAWkVPVs13UgvsCZx8vXR3nJh6hjOHlOf8MOi8h-k7w3rINqPmGbVZWlJffqvbBkfHs_S3-OdRsVjP1cIvsU4ugbEjzFAiPyZWdZPsMc76jLCXtYQx4VAiMi5qSLJkIALkkkEwZJ3MgBr5E6K_XH-SvV4nVgz1S4cXa_zYnfVOazSAfxQOrX2_KnqqS_vJVSCnbNMSUXFLiK=w518-h274-no
 date:           2018-4-30 23:00:00
-tags:           ML
+tags:           Machine Learning, TensorFlow, Coding, Data Science
 post-card-type: image
 ---
 

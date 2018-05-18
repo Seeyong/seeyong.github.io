@@ -4,7 +4,7 @@ title:          Tensor 데이터 처리하기 Part.1
 subtitle:       manipulate Tensor
 card-image:     http://cfile27.uf.tistory.com/image/221A8C4F527B96CA0AA464
 date:           2018-05-15 16:00:00
-tags:           ML
+tags:           Machine Learning, TensorFlow, Coding, Data Science
 post-card-type: image
 ---
 # Tensor manipulation

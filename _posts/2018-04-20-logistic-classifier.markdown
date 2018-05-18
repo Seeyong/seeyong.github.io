@@ -4,7 +4,7 @@ title:    	  	이항 분류 - Logistic (Regression) Classifier
 subtitle:   	0 또는 1
 card-image: 	https://cdn-images-1.medium.com/max/1600/1*sOtpVYq2Msjxz51XMn1QSA.png
 date:       	2018-04-20 15:00:00
-tags:       	ML
+tags:       	Machine Learning, TensorFlow, Coding, Data Science
 post-card-type: image
 ---
 
