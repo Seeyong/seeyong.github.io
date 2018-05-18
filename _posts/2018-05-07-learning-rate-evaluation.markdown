@@ -4,7 +4,7 @@ title:          Traing/Test, Learning Rate와 Normalization으로 학습 효과 
 subtitle:       
 card-image:     https://raw.githubusercontent.com/ritchieng/machine-learning-nanodegree/master/deep_learning/introduction/lr10.png
 date:           2018-05-07 15:50:00
-tags:           Machine Learning, TensorFlow, Coding, Data Science
+tags:           MachineLearning TensorFlow Coding DataScience
 post-card-type: image
 ---
 # Training & Test data

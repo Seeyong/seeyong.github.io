@@ -4,7 +4,7 @@ title:          비용 최소화
 subtitle:       Gradient Descent Algorithm
 card-image:     https://cdn-images-1.medium.com/max/1600/1*WGHn1L4NveQ85nn3o7Dd2g.png
 date:           2018-04-10 16:00:00
-tags:           Machine Learning, TensorFlow, Coding, Data Science
+tags:           MachineLearning TensorFlow Coding DataScience
 post-card-type: image
 ---
 

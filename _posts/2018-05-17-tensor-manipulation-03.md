@@ -4,7 +4,7 @@ title:          Tensor 데이터 처리하기 Part.3
 subtitle:       manipulate Tensor
 card-image:     https://imagecdn.coggle.it/58dbf7f08d69190001e820e3-20cac254-10f6-4dcb-938b-df9bbc102111.jpg
 date:           2018-05-17 21:30:00
-tags:           Machine Learning, TensorFlow, Coding, Data Science
+tags:           MachineLearning TensorFlow Coding DataScience
 post-card-type: image
 ---
 ![](https://imagecdn.coggle.it/58dbf7f08d69190001e820e3-20cac254-10f6-4dcb-938b-df9bbc102111.jpg)

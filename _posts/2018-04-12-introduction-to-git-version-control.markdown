@@ -4,7 +4,7 @@ title:          Introduction to Git
 subtitle:   What is version control
 card-image:     https://s3.amazonaws.com/assets.datacamp.com/production/course_5355/datasets/staging-area.png
 date:           2018-4-12 20:30:00
-tags:           git, Coding, Database
+tags:           git Coding Database
 post-card-type: image
 ---
 

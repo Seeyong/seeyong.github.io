@@ -4,7 +4,7 @@ title:          MNIST Data로 숫자 이미지 분류하기
 subtitle:       
 card-image:     https://cdn-images-1.medium.com/max/584/1*9Mjoc_J0JR294YwHGXwCeg.jpeg
 date:           2018-05-08 14:00:00
-tags:           Machine Learning, TensorFlow, Coding, Data Science
+tags:           MachineLearning TensorFlow Coding DataScience
 post-card-type: image
 ---
 

@@ -4,7 +4,7 @@ title:          Tensor 데이터 처리하기 Part.2
 subtitle:       manipulate Tensor
 card-image:     https://www.mathsisfun.com/algebra/images/matrix-multiply-a.svg
 date:           2018-05-16 23:00:00
-tags:           Machine Learning, TensorFlow, Coding, Data Science
+tags:           MMachineLearning TensorFlow Coding, DataScience
 post-card-type: image
 ---
 

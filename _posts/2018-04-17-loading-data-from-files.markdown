@@ -4,7 +4,7 @@ title:      	파일에서 Data 읽어오기
 subtitle:   	
 card-image: 	http://cfile25.uf.tistory.com/image/223B9B4958F7733C012354
 date:       	2018-04-17 20:30:00
-tags:       	Machine Learning, TensorFlow, Coding, Data Science
+tags:       	MachineLearning TensorFlow Coding DataScience
 post-card-type: image
 ---
 ## 파일에서 데이터 읽어오기

@@ -4,7 +4,7 @@ title:      	Fancy한 Softmax
 subtitle:   	
 card-image: 	
 date:       	2018-05-05 21:00:00
-tags:       	Machine Learning, TensorFlow, Coding, Data Science
+tags:       	MachineLearning TensorFlow Coding DataScience
 post-card-type: article
 ---
 
