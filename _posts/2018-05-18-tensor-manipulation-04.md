@@ -4,7 +4,7 @@ title:          Tensor 데이터 처리하기 Part.4
 subtitle:       manipulate Tensor
 card-image:     http://www.aviz.fr/wiki/uploads/Research/CubixMatrixCubeExplanation.png
 date:           2018-05-18 15:30:00
-tags:           MachineLearning TensorFlow Coding, DataScience
+tags:           MachineLearning TensorFlow Coding DataScience
 post-card-type: image
 ---
 ![](http://www.aviz.fr/wiki/uploads/Research/CubixMatrixCubeExplanation.png)
